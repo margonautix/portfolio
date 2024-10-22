@@ -32,7 +32,7 @@ const App = () => {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
+                  enable: false,
                   mode: "push",
                 },
                 onHover: {
@@ -53,7 +53,7 @@ const App = () => {
             },
             particles: {
               color: {
-                value: "#ffffff",
+                value: ["#4830A8", "#A9A1C7", "#8474C2"],
               },
               links: {
                 color: "#ffffff",
